@@ -52,7 +52,7 @@ function ezlib:NewWindow(winName)
     header.Name = "header"
     header.TextColor3 = Color3.fromRGB(255, 255, 255)
     header.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    header.Text = "EzUI"
+    header.Text = winName
     header.Size = UDim2.new(0, 204, 0, 15)
     header.Position = UDim2.new(0.035999998450279236, 0, 0.5, 0)
     header.AnchorPoint = Vector2.new(0, 0.5)
